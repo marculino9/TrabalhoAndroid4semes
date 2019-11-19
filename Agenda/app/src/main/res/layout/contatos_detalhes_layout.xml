@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    tools:context=".Contatos_Detalhes_Activity">
+
+    <TextView
+        android:id="@+id/sobreNome_detalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="Sobrenome: "
+        android:textColor="@android:color/black"
+
+        />
+    <TextView
+        android:id="@+id/endereco_detalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Endereço: "
+        android:layout_marginTop="5sp"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/email_detalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-Mail: "
+        android:layout_marginTop="5sp"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/referencia_detalhe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Referência: "
+        android:layout_marginTop="5sp"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+
+        />
+    <Button
+        android:id="@+id/btnRemover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="250dp"
+        android:backgroundTint="#00BCD4"
+        android:textStyle="bold"
+        android:text="Remover"
+        />
+
+</LinearLayout>
